@@ -58,12 +58,14 @@ input {
 
 }
 
-
-.column {
-    float: left;
-    width: 25%;
-    padding: 10px 10px;
+section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
 }
+
+
+
 
 .card {
     border-radius: 19px;
